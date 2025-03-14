@@ -3,6 +3,7 @@
 Module defining a Student class with selective JSON serialization.
 """
 
+
 class Student:
     """
     A class representing a student.
@@ -27,9 +28,10 @@ class Student:
 
         Args:
             attrs (list, optional): A list of attribute names to retrieve.
-        
+
         Returns:
-            dict: A dictionary containing the specified attributes, or all attributes if attrs is None.
+            dict: A dictionary containing the specified attributes,
+                  or all attributes if attrs is None.
         """
         if attrs is None:
             return self.__dict__

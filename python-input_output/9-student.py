@@ -3,6 +3,7 @@
 Module defining a Student class with JSON serialization capability.
 """
 
+
 class Student:
     """
     A class representing a student.

@@ -3,12 +3,14 @@
 Module for appending a string to a text file.
 """
 
+
 def append_write(filename="", text=""):
     """
-    Appends a string to a UTF-8 encoded text file and returns the number of characters added.
+    Appends a string to a UTF-8 encoded text file and returns
+    the number of characters added.
 
     Args:
-        filename (str): The name of the file to append to. Defaults to an empty string.
+        filename (str): The name of the file to append to.
         text (str): The string to append to the file.
 
     Returns:
