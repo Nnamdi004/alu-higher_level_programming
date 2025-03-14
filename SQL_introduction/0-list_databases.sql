@@ -6,4 +6,4 @@ MYSQL_USER="root"
 MYSQL_PASSWORD="your_password"
 
 # List all databases
-mysql -u "$MYSQL_USER" -p"$MYSQL_PASSWORD" -e "SHOW DATABASES;"
+mysql -u "$MYSQL_USER" -p"$MYSQL_PASSWORD" -e "-- SHOW DATABASES;"
