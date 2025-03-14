@@ -1,1 +1,1 @@
-SQL_introduction
+Author: Joshua Alana
